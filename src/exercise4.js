@@ -1,9 +1,20 @@
-exports.run = function(input) {
+exports.run = function() {
   console.log("Exercise #4");
 
-  // YOUR CODE IS WELCOME HERE
+
 
   /** STRICTLY FORBIDDEN TO CHANGE THIS CODE */
   return input(3, "Beetlejuice", repeat);
   /** */
 };
+
+
+function run (input){
+  console.log('Beetlejuice, Beetlejuice, Beetlejuice')
+
+  /** STRICTLY FORBIDDEN TO CHANGE THIS CODE */
+  return input(3, "Beetlejuice", repeat);
+  /** */
+}
+
+run("Beetlejuice");
