@@ -4,7 +4,7 @@ exports.run = function run(input) {
     var remainder = input % 10
     return Math.max(remainder, biggestNumber((input-remainder)*1e-1));
   }
-  console.log("Exercise #2");
+  console.log(run(545479));
 };
 
 
